@@ -20,8 +20,6 @@ body {
     font-size: 20px;
 }
 
-
-
 header {
     background-color: #0f0f0f;
     position: absolute;
@@ -177,6 +175,12 @@ img {
 }
 
 .fila {
+    margin: 30px 50px 80px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filaprecio {
     margin: 30px 50px 80px 50px;
     display: flex;
     flex-wrap: wrap;
@@ -625,8 +629,11 @@ input[type="checkbox"]:checked + .check:before {
     text-align: center;
     border: 10px solid #811111;
     border-radius: 100px 0px 100px 0px;
-    flex-basis: 300px;
+    flex-basis: 350px;
     flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
 
@@ -640,7 +647,7 @@ input[type="checkbox"]:checked + .check:before {
 }
 
 .foto {
-    margin: 10px;
+    /* margin: 10px; */
     width: 400px;
     height: 300px;
     padding: 5px;
@@ -779,6 +786,8 @@ footer a.activo {
 
 @media (max-width: 720px) {
     .fila {
+        margin: 20px 50px 20px 50px;
+        padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -801,6 +810,7 @@ footer a.activo {
     }
 
     .texto {
+        font-size: 18px;
         padding: 15px 30px;
     }
 
@@ -817,13 +827,35 @@ footer a.activo {
         height: 200px;
     }
 
+    .fila .col2 {
+        width: 500px;
+        height: 100px;
+        padding: 5px;
+        text-align: right;
+        flex-basis: 120px;
+        flex-grow: 2;
+        width: 500px;
+        height: 100px;
+    }
+
+    .col2 iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .coldireccion {
+        padding: 5px;
+        flex-basis: 120px;
+        font-size: 15px;
+    }
+
     .boton {
         font-size: 18px;
     }
 
     h2 {
-        font-size: 35px;
-        color: #464646
+        padding: 10px 25px;
+        font-size: 30px;
     }
 
     .columna {
@@ -831,14 +863,15 @@ footer a.activo {
     }
 
     .contenedorfotos {
-        grid-template-columns: repeat(1, 200px);
-        grid-template-rows: repeat(auto-fit, 100px);
+        grid-template-columns: repeat(1, 250px);
+        grid-template-rows: repeat(auto-fit, 200px);
+        grid-gap: 20px;
     }
 
     .foto {
-        margin: 2px;
-        width: 50px;
-        height: 20px;
+        margin: 5px;
+        width: 250px;
+        height: 188px;
         padding: 1px;
         box-shadow: 1px 1px 2px #da2a2a,
                     -1px 1px 2px #da2a2a,
@@ -846,6 +879,13 @@ footer a.activo {
                     -1px -1px 2px #da2a2a;                       /* Realizado por Luis S. Botejara */
         border-radius: 2px;
     }
+
+    img {
+        max-height: 100%
+    }
+
+
+
 }
 
 @media (max-width: 640px) {
@@ -884,7 +924,8 @@ footer a.activo {
     }
 
     .texto {
-        padding: 10px 25px;
+        font-size: 15px;
+        padding: 10px 35px;
     }
 
     nav {
@@ -908,8 +949,8 @@ footer a.activo {
     }
 
     h2 {
-        font-size: 30px;
-        color: #464646
+        padding: 10px 25px;
+        font-size: 25px;
     }
 
     .fila .col1 img {
@@ -952,7 +993,7 @@ footer a.activo {
         margin: 20px 0px 20px 0px;
     }
 
-    .fila.primera {
+    .fila .primera {
         margin: 100px 0px 20px 0px;
     }
 
