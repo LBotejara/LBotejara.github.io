@@ -633,7 +633,7 @@ input[type="checkbox"]:checked + .check:before {
 .contenedorfotos {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(auto-fit, 300px);
     grid-gap: 30px;
     justify-content: center;
@@ -828,6 +828,23 @@ footer a.activo {
 
     .columna {
         margin: 20px;
+    }
+
+    .contenedorfotos {
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(auto-fit, 100px);
+    }
+
+    .foto {
+        margin: 2px;
+        width: 50px;
+        height: 20px;
+        padding: 1px;
+        box-shadow: 1px 1px 2px #da2a2a,
+                    -1px 1px 2px #da2a2a,
+                    1px -1px 2px #da2a2a,
+                    -1px -1px 2px #da2a2a;                       /* Realizado por Luis S. Botejara */
+        border-radius: 2px;
     }
 }
 
