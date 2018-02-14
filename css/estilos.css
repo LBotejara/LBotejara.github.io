@@ -825,7 +825,7 @@ footer a.activo {
 @media (max-width: 720px) {
 
     .breadcrumbs {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .fila {
@@ -1064,6 +1064,10 @@ footer a.activo {
 
 @media (max-width: 640px) {
 
+    .breadcrumbs {
+        margin: 60px 0px 20px 5%;
+    }
+
     header {
         height: 40px;
         background-image: none;
@@ -1180,7 +1184,7 @@ footer a.activo {
 @media (max-width: 420px) {
 
     .breadcrumbs {
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .fila {
