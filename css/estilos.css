@@ -823,6 +823,11 @@ footer a.activo {
 }
 
 @media (max-width: 720px) {
+
+    .breadcrumbs {
+        font-size: 10px;
+    }
+
     .fila {
         display: flex;
         flex-direction: column;
@@ -1173,6 +1178,10 @@ footer a.activo {
 }
 
 @media (max-width: 420px) {
+
+    .breadcrumbs {
+        font-size: 5px;
+    }
 
     .fila {
         margin: 20px 0px 20px 0px;
