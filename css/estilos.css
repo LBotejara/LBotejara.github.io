@@ -551,7 +551,7 @@ input::-webkit-input-placeholder {
 
 .padreprecio {
     margin: 30px 0px;
-    padding: 0 50px;
+    padding: 0 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -946,6 +946,10 @@ footer a.activo {
     
     .filaformulario {
         flex-direction: column;
+    }
+
+    .padreprecio {
+        padding: 0 5px;
     }
 
     .precio {
