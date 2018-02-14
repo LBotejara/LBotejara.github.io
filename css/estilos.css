@@ -191,20 +191,6 @@ img {
     height: 400px;
 }
 
-.filainf {
-    margin: 20px 40px 120px 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.filainf img {
-    max-width: 20%;
-}
-
-.filainf a {
-    font-size: 15px;
-}
-
  .centrotitulo {
     margin: 20px 100px 10px 100px;
     text-align: center;
@@ -246,28 +232,10 @@ img {
     flex-grow: 1;
 }
 
-.col2 {
-    padding: 10px;
-    text-align: right;
-    flex-basis: 250px;
-    flex-grow: 2;
-}
-
 .colmapa {
     text-align: right;
     flex-basis: 120px;
     flex-grow: 2;
-}
-
-.col3 {
-    margin: 0px 30px 30px 30px;
-    padding: 10px;
-    flex-basis: 300px;
-    flex-grow: 3;
-}
-
-.col2 p {
-    padding: 10px;
 }
 
 .fondo {
@@ -336,12 +304,12 @@ img {
 .miniform .boton:hover {
     border: 2px solid #da2a2a;
     background-color: #811111;
-    color: white;
+    color: white;                                           /* Realizado por Luis S. Botejara */
     font-size: 24px;
     padding: 10px;
 }
 
-/* Contacto */
+
 
 .direccion {
     line-height: 2em;
@@ -408,28 +376,28 @@ img {
     justify-content: space-between;
 }
 
-.col4 {
+.col2 {
     padding: 5px;
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.col5 {
+.col3 {
     padding: 5px;
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
-.col6 {
+.col4 {
     padding: 5px;
     display: flex;
     flex-direction: column;
     width: 33%;
 }
 
-.col7 {
+.col5 {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -468,13 +436,6 @@ input::-webkit-input-placeholder {
     color: #da2a2a;
 }
 
-.colradio {
-    margin-top: 30px;
-    padding: 10px;
-    display: flex;
-    width: 100%;
-}
-
 .colboton {
     margin-top: 20px;
     padding: 10px;
@@ -495,28 +456,6 @@ input::-webkit-input-placeholder {
     background-color: #811111;
 }
 
-.radio {
-    opacity: 1;
-}
-
-
-input[type="radio"] {
-    display: none;
-}
-
-input[type="radio"] + .radio:before {
-    content: url('../img/circle-outline.svg');
-    position: relative;
-    top: 3px;
-    right: 4px;
-    padding-right: 5px;
-    
-}
-
-input[type="radio"]:checked + .radio:before {
-    content: url('../img/tick-inside-circle.svg');
-}
-
 #telefono::-webkit-input-placeholder {
     background-image: url('../img/telephone-symbol-button.svg');
     background-repeat: no-repeat;
@@ -528,35 +467,7 @@ input[type="radio"]:checked + .radio:before {
     background-repeat: no-repeat;
     text-indent: 30px; 
 }
-
-.check {
-    opacity: 1;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"] + .check:before {
-    content: url('../img/circle-outline.svg');
-    position: relative;
-    top: 3px;
-    right: 4px;
-    padding-right: 5px;
-    
-}
-
-input[type="checkbox"]:checked + .check:before {
-    content: url('../img/tick-inside-circle.svg');
-}
-
-#condiciones:checked ~ #boton {
-    display: initial;
-    opacity: 1;
-}
-
-/* Compras */
-
+                                                                        /* Realizado por Luis S. Botejara */
 .contenedortarjeta {
     margin: 20px 0px 70px 0px;
     display: grid;
@@ -578,7 +489,7 @@ input[type="checkbox"]:checked + .check:before {
     align-items: center;
 }
 
-.imagen {                              /* width: 180px  height: 300px */
+.imagen {
     width: 100%;
     height: 200px;
     overflow: hidden;
@@ -626,8 +537,6 @@ input[type="checkbox"]:checked + .check:before {
     color: #da2a2a;
     font-weight: bold;
 }
-
-/* Detalles compra y alquiler */
 
 .centrotitulodetalles {
     text-align: center;
@@ -678,7 +587,6 @@ input[type="checkbox"]:checked + .check:before {
 }
 
 .foto {
-    /* margin: 10px; */
     width: 400px;
     height: 300px;
     padding: 5px;
