@@ -834,7 +834,7 @@ footer a.activo {
     }
 
     .fila .col1, .columna {
-        padding: 5px;
+        padding: 20px;
     }
 
     .fila .col1 img {
@@ -1004,6 +1004,7 @@ footer a.activo {
     .fila .col1 {
         margin: 1px;
         padding: 1px;
+        flex-basis: 200px;
     }
 
     .fila .col1, .columna {
