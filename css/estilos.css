@@ -669,7 +669,7 @@ input[type="checkbox"]:checked + .check:before {
 
 
 .contenedorfotos {
-    margin: 20px 50px 30px 50px;
+    margin: 20px 20px 30px 20px;
     display: grid;
     grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(auto-fit, 300px);
@@ -805,6 +805,12 @@ footer a.activo {
 
     .hero, .fondo {
         background-attachment: fixed;
+    }
+}
+
+@media (max-width: 865px) {
+    .contenedorfotos {
+        grid-template-columns: repeat(1, 400px);
     }
 }
 
