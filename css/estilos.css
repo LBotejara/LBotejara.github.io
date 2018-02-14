@@ -242,7 +242,7 @@ img {
 
 .fondo {
     margin: 0;
-    padding: 60px 40px;
+    padding: 20px 0px;
     background-image: url('../img/fondotexto.jpg');
     background-size: cover;
     background-position: center;
@@ -766,7 +766,7 @@ footer a.activo {
     }
 
     .fondo .texto {
-        padding: 15px 30px;
+        padding: 5px 5px;
     }
 
     .contenedortarjeta {
@@ -1057,7 +1057,7 @@ footer a.activo {
         padding: 0 20px 0 20px;
     }
 
-    .fondo .texto p {
+    .fondo .texto {
         font-size: 20px;
     }
                                                             /* Realizado por Luis S. Botejara */
@@ -1078,7 +1078,7 @@ footer a.activo {
     }
 
     .izdo, .centro, .dcho {
-        flex-basis: 200px;
+        flex-basis: 320px;
     }
 
     .centroinferior {
@@ -1088,6 +1088,17 @@ footer a.activo {
 
      .filalegal {
         margin: 10px 40px 40px 40px;
+    }
+
+    .izdo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .centro {
+        padding: 20px 20px 20px 20px;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -1119,11 +1130,6 @@ footer a.activo {
 
     .ultima {
         margin: 20px 0 40px 0;
-    }
-
-    .izdo {
-        text-align: center;
-        margin-top: 20px;
     }
 
     .miniform .boton:hover {
