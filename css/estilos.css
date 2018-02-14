@@ -669,7 +669,7 @@ input[type="checkbox"]:checked + .check:before {
 
 
 .contenedorfotos {
-    margin: 20px;
+    margin: 20px 40px 30px 40px;
     display: grid;
     grid-template-columns: repeat(2, 400px);
     grid-template-rows: repeat(auto-fit, 300px);
