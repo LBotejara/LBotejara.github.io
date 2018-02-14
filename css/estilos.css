@@ -1,3 +1,5 @@
+                    /* Realizado por Luis S. Botejara */
+
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
@@ -121,7 +123,7 @@ img {
     align-items: center;
     line-height: 3em;
 }
-
+                                                        /* Realizado por Luis S. Botejara */
 .hero h1 {
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -216,7 +218,7 @@ img {
     flex-direction: column;
     align-items: center;
 }
-
+                                                            /* Realizado por Luis S. Botejara */
 .texto {
     width: 100%;
     padding: 30px 120px;
@@ -382,7 +384,7 @@ img {
     flex-direction: column;
     width: 40%;
 }
-
+                                                            /* Realizado por Luis S. Botejara */
 .col3 {
     padding: 5px;
     display: flex;
@@ -467,7 +469,7 @@ input::-webkit-input-placeholder {
     background-repeat: no-repeat;
     text-indent: 30px; 
 }
-                                                                        /* Realizado por Luis S. Botejara */
+                                                            /* Realizado por Luis S. Botejara */
 .contenedortarjeta {
     margin: 20px 0px 70px 0px;
     display: grid;
@@ -537,7 +539,7 @@ input::-webkit-input-placeholder {
     color: #da2a2a;
     font-weight: bold;
 }
-
+                                                            /* Realizado por Luis S. Botejara */
 .centrotitulodetalles {
     text-align: center;
     box-sizing: border-box;
@@ -669,7 +671,7 @@ footer a:hover {
 footer a.activo {
     color: #da2a2a;
 }
-
+                                                            /* Realizado por Luis S. Botejara */
 .rrss {
     flex-grow: 1;
     padding: 15px;
@@ -749,7 +751,7 @@ footer a.activo {
         width: 100%;
         text-align: center;
         } 
-    
+                                                                /* Realizado por Luis S. Botejara */
     .hero h2 {
         padding: 0px 10px;
         font-size: 28px;
@@ -941,7 +943,7 @@ footer a.activo {
         border-radius: 50px 0px 50px 0px;
         box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.5);
     }
-
+    
     .filaformulario {
         flex-direction: column;
     }
@@ -1004,7 +1006,7 @@ footer a.activo {
         margin: 1px;
         padding: 1px;
     }
-
+                                                        /* Realizado por Luis S. Botejara */
     .boton {
         font-size: 15px;
     }
@@ -1058,7 +1060,7 @@ footer a.activo {
     .fondo .texto p {
         font-size: 20px;
     }
-
+                                                            /* Realizado por Luis S. Botejara */
     .miniform {
         text-align: center;
     }
@@ -1134,3 +1136,5 @@ footer a.activo {
         font-size: 16px;
      }
 }
+
+                    /* Realizado por Luis S. Botejara */
